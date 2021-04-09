@@ -1,0 +1,37 @@
+body{
+    background:deeppink;
+}
+*{
+    margin:0;
+    padding:0;
+}
+
+.videowraper{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 10%;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right:10px
+}
+
+input{
+    width: 100%;
+}
+
+.pwraper{
+    display: flex;
+    align-items: center;
+}
+
+video{
+    cursor: pointer;
+}
