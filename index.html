@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="videowraper">
+        <video id="video" src="player.mp4" id="controls" class="vcontrol" width="500px"></video>
+        <div class="pwraper">
+            <button class="btn" id="play">
+                <i class="fas fa-play"></i>
+            </button>
+            <button class="btn" id="stop">
+                <i class="fas fa-stop"></i>
+            </button>
+            <input type="range" id="progress" class="progress" min="0" max="100" step="0.1" value="0"/>
+            <span id="timecus" class="timecus">00:00</span>
+        </div>
+
+    <script src="all.min.js"></script>
+    <script src="video.js"></script>
+</body>
+</html>
